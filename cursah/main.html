@@ -3,9 +3,25 @@
 <link rel="stylesheet" href="main_style.css">
 </head>
 <body>
+<div id="zatemnenie">
+      <div id="okno">
+	  <a href="#" class="close">Назад</a>
+        <h1>Авторизация и регистрация</h1>
+<div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+		<br>
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password">
+<br>
+      <button onclick="login()">Войти</button>
+      <button onclick="register()">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
 <nav class="top-menu">
 <ul class="menu-main">
-  <li><a href="">Войти</a></li>
+  <li><a href="#zatemnenie">Войти</a></li>
 </ul>
  <a class="navbar-logo" href=""><img src="D:\Политех\3_курс\cursah\images\polytech_logo_main.png" width="100%"></a>
 </nav>
@@ -18,21 +34,21 @@
   <p class="image"><img src="images/graduation.png" width="30%" ></p>
   <div class="container">
     <h4><b>Факультеты и направления</b></h4>
-    <p class= "clink">Посмотреть</p>
+    <a href="fac.html" style="color: #F73E24;"><p class= "clink">Посмотреть</p></a>
   </div>
 </div>
 <div class="card">
   <p class="image"><img src="images/calculator.png" width="30%"></p>
   <div class="container">
     <h4><b>Калькулятор баллов</b></h4>
-    <p class= "clink">Подобрать</p>
+    <a href="calc1.html" style="color: #F73E24;"><p class= "clink">Подобрать</p></a>
   </div>
 </div>
 <div class="card">
   <p class="image"><img src="images/rules.png" width="30%"></p>
   <div class="container">
     <h4><b>Правила</br> приема</b></h4>
-    <p class= "clink">Читать</p>
+    <a href="prpr.html" style="color: #F73E24;"><p class= "clink">Читать</p></a>
   </div>
 </div>
 </div>
